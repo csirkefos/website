@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jamonserrrano.hu/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -28,6 +28,11 @@
   <url>
     <loc>https://jamonserrrano.hu/felejtsd-el-az-idomenedzsmentet-az-energiamenedzsment-4-alappillere-a-kiegesmentes-produktivitasert.html</loc>
     <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamonserrrano.hu/kapcsold-ki-a-wifit-kapcsold-be-a-termeszetet-7-kulonleges-hazai-szallashely-digitalis-detoxhoz.html</loc>
+    <lastmod>2026-05-20</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
