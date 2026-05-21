@@ -73,20 +73,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
         posts.forEach(post => {
             const article = document.createElement('article');
-            article.className = 'article-item';
+            article.className = 'ui-5z78';
             
             article.innerHTML = `
-                <div class="article-item-img">
+                <div class="w-7wvx">
                     <a href="${post.slug}.html">
                         <img src="images/${post.slug}-featured.jpg" alt="${post.title}" onerror="this.src='https://via.placeholder.com/600x400/eeeeee/aaaaaa?text=No+Image'">
                     </a>
                 </div>
-                <div class="article-item-content">
-                    <h2 class="article-item-title">
+                <div class="x-ht3">
+                    <h2 class="y-ztn">
                         <a href="${post.slug}.html">${post.title}</a>
                     </h2>
-                    <div class="article-item-meta">${post.date}</div>
-                    <p class="article-item-excerpt">${post.excerpt}</p>
+                    <div class="ui-5w7e">${post.date}</div>
+                    <p class="w-ytx1">${post.excerpt}</p>
                 </div>
             `;
             searchResults.appendChild(article);
