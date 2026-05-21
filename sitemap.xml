@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jamonserrrano.hu/index.html</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -83,6 +83,11 @@
   <url>
     <loc>https://jamonserrrano.hu/a-digitalis-amnezia-korszaka-hova-tunnek-az-emlekeink-ha-tobbe-nem-kell-oket-megjegyeznunk.html</loc>
     <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jamonserrrano.hu/digitalis-temetok-es-algoritmus-kisertetek-mi-tortenik-az-online-szemelyisegeddel-ha-az-ai-atveszi-a-gyaszolo-szerepet.html</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
