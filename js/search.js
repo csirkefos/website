@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (query.length === 0) {
             // Restore normal view
             searchResults.style.display = 'none';
-            if (normalList) normalList.style.display = 'flex';
-            if (normalContent) normalContent.style.display = 'block';
+            if (normalList) normalList.style.display = '';
+            if (normalContent) normalContent.style.display = '';
             if (paginationControls) paginationControls.style.display = 'flex';
             return;
         }
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (normalList) normalList.style.display = 'none';
         if (normalContent) normalContent.style.display = 'none';
         if (paginationControls) paginationControls.style.display = 'none';
-        searchResults.style.display = 'flex';
+        searchResults.style.display = '';
 
         // Load data if not already loaded
         if (!postsData) {

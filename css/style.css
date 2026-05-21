@@ -142,6 +142,24 @@ header {
   margin-top: 20px;
 }
 
+/* Grid Variant */
+.w-jdcf.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.w-jdcf.grid .ui-5z78 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+.w-jdcf.grid .w-7wvx img {
+  height: 220px;
+}
+
 .ui-5z78 {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -324,6 +342,9 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-bottom: 40px;
+  }
+  .w-jdcf.grid {
+    grid-template-columns: 1fr;
   }
   .w-7wvx img {
     height: 220px;
